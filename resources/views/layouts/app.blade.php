@@ -13,6 +13,7 @@
 
     <link rel="stylesheet" href="{{ URL::asset('css/app.css')}}">
     <script src="{{ asset('js/jquery-1.11.0.min.js') }}"></script>
+    <script src="{{ asset('js/popper.min.js') }}"></script>
     <script src="{{ asset('js/sliderpro.min.js') }}"></script>
     <script src="{{ asset('js/slick.js') }}"></script>
     <script src="{{ asset('js/owl.carousel.min.js') }}"></script>
