@@ -19,6 +19,9 @@ Route::get('/welcome', function () {
     return view('welcome');
 });
 
+    
+Route::get('/updated-activity', 'TelegramBotController@updatedActivity');
+
 Route::match(['get', 'post'], '/botman', 'BotManController@handle');
 Route::get('/botman/tinker', 'BotManController@tinker');
 
